@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Catálogo (produtos, acabamentos, empresa) e orçamentos.
+    // Permite leitura/escrita apenas para usuários autenticados (login anônimo
+    // no site já conta como autenticado). Para restringir a uma pessoa,
+    // troque a condição por: request.auth.token.email == 'seu@email.com'
+    match /config/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /orcamentos/{orcId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

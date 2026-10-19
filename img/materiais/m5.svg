@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Wind Banner 200x70 cm">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6ECDD"/><stop offset="1" stop-color="#EBD7BE"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.05"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.35"/></linearGradient>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#3A2413" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="96" height="96" fill="url(#bg)"/>
+<g filter="url(#sh)">
+  <rect x="45" y="9" width="6" height="67" rx="3" fill="#6B3A1E"/>
+  <path d="M51 11h27a4 4 0 0 1 4 4v44H51z" fill="#BE7B45" stroke="#6B3A1E"/>
+  <path d="M51 11h31v48H51z" fill="url(#gl)"/>
+  <text x="67" y="34" font-family="Segoe UI,Arial" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">200</text>
+  <text x="67" y="45" font-family="Segoe UI,Arial" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">×70</text>
+  <rect x="32" y="72" width="32" height="12" rx="3" fill="#8A7A66"/>
+  <rect x="32" y="72" width="32" height="5" rx="2.5" fill="#E4D9C5"/>
+</g>
+</svg>

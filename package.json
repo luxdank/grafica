@@ -1,0 +1,10 @@
+{
+  "name": "grafica-orcamentos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Orçamentos de gráfica com cálculo por m² e banco de produtos no Firebase",
+  "scripts": {
+    "serve": "npx --yes serve -l 5000 .",
+    "deploy": "firebase deploy --only hosting,firestore:rules"
+  }
+}

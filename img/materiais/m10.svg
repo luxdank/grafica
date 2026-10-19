@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Cartolina 350g">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBF7EF"/><stop offset="1" stop-color="#F5EFE2"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.05"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.4"/></linearGradient>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="96" height="96" fill="url(#bg)"/>
+<g filter="url(#sh)">
+  <rect x="14" y="18" width="68" height="60" rx="3" fill="#D6A96B" stroke="#A9763F"/>
+  <rect x="14" y="18" width="68" height="8" fill="#C08C4E"/>
+  <path d="M22 34h52M22 40h52M22 46h52M22 52h52M22 58h52M22 64h52" stroke="#B07F45" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="40" cy="46" r="12" fill="#EDE9FE" stroke="#A78BFA"/>
+  <text x="40" y="50" font-family="Segoe UI,Arial" font-size="8" font-weight="700" fill="#5B21B6" text-anchor="middle">350g</text>
+</g>
+</svg>
